@@ -23,7 +23,7 @@ HDFC Mutual funds is an app that will show the Net asset value when you search w
 
 |Date |Description|
 |-----|--------|
-|05/24|Setup       |
+|05/24|Setup and test api       |
 |05/25|html & css      |
 |05/26|javascript|
 |05/30|changes|
