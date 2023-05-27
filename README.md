@@ -1,5 +1,5 @@
 # MET MUSEUM 
-Currently the largest mutual fund and actively managed equity mutual fund in India.
+
 
 ## Technologies used
 [![My Skills](https://skillicons.dev/icons?i=js,html,css,javascript)](https://skillicons.dev)
