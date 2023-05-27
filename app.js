@@ -1,34 +1,32 @@
-const departmentsUrl = "https://collectionapi.metmuseum.org/public/collection/v1/departments"
+const objectsIdURL = "https://collectionapi.metmuseum.org/public/collection/v1/objects"
 const objectsUrl = "https://collectionapi.metmuseum.org/public/collection/v1/search?q="
 console.log(departmentsURL)
 
-function getDepartments(objectID) {
+function departmentSearch(objectID){
     const url=`${objectsUrl}${objectID}`
     $.ajax(url)
-    .then((response) => {
-        console.log(response);
-        const objectIDs = response.objectIDs.slice(0, 10);
-        const $main = $("main");
-        $main.empty();
-        objectIDs.forEach((objectID) => {
-            const url = `${objectsUrl}/${objectID}`;
-            console.log(url);
-            $.ajax(url2)
-            .then((object) => {
-                console.log(object);
-                const div = $("<div>");
-                div.html(`
-                <img src="${object.primaryImage}">
-                <h2>${object.medium}</h2>
-                <h2>${object.dynasty}</h2>
-                <h2>${object.culture}</h2>
-                <h2>${object.title}
-                <h2>${object.department}</h2>
-                `);
-                $main.append(div);
-            });
-        });
-    });
+    .then((objectIDs) => {
+        console.log(objectIDs)
+        const $main = $("main")
+        $main.empty()
+        objectIDs.objectIDs.slice(0,10).forEach((id)=>{
+            console.log(id)
+    const url2 =`${objectsIdURL}/${id}`
+    console.log(url2)
+    $.ajax(url2)
+    .then((artwork)=> {
+        console.log(artwork)
+        const div=$("<div>")
+        div.html(`
+        <img src="${artwork.primaryImage}">
+        <h2>${artwork.title}</h2>
+        <h2>${artwork.dynasty}</h2>
+        <h2>${artwork.medium}</h2>
+        <h2>${artwork.geographyType}</h2>
+        `)
+    })
+        })
+    })
 }
 
 $("input[type=submit]").on("click", (event)=>
