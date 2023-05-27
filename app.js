@@ -2,8 +2,9 @@ const departmentsUrl = "https://collectionapi.metmuseum.org/public/collection/v1
 const objectsUrl = "https://collectionapi.metmuseum.org/public/collection/v1/search?q="
 console.log(departmentsURL)
 
-function getDepartments() {
-    $.ajax(departmentsUrl)
+function getDepartments(objectID) {
+    const url=`${objectsUrl}${objectID}`
+    $.ajax(url)
     .then((response) => {
         console.log(response);
         const objectIDs = response.objectIDs.slice(0, 10);
@@ -12,7 +13,7 @@ function getDepartments() {
         objectIDs.forEach((objectID) => {
             const url = `${objectsUrl}/${objectID}`;
             console.log(url);
-            $.ajax(url)
+            $.ajax(url2)
             .then((object) => {
                 console.log(object);
                 const div = $("<div>");
@@ -33,11 +34,7 @@ function getDepartments() {
 $("input[type=submit]").on("click", (event)=>
 {   //prevent the refresh
     event.preventDefault()
-    // grab text from input box
-    //check if the artistDisplayName includes the search keyword,
-    const inputText=$("input[type=text]").val() // jquery val() actually grabs the value or it wont work
-    // update the screen
-    
+    const inputText=$("input[type=text]").val()
     getDepartments(inputText)
 })
 
