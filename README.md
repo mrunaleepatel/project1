@@ -7,6 +7,7 @@
 * CSS
 * JavaScript
 * jQuery
+* AJAX
 
 ## API used
 
@@ -18,6 +19,10 @@
 MET Museum is an app where users can search the artwork by typing the location.
 
 ![CulturalArtworkHub](https://github.com/mrunaleepatel/project1/assets/130593688/4720a88a-497b-4f81-b93d-25eb0bc85578)
+<<<<<<< HEAD
+=======
+
+>>>>>>> 64ef2daa51c6f0765012598dd504e3bb317f3756
 
 ## Expected Timeline 
 
