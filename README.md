@@ -1,4 +1,4 @@
-# THE MET MUSEUM 
+# THE CULTURAL ARTWORK HUB 
 
 ## Technologies used
 [![My Skills](https://skillicons.dev/icons?i=js,html,css,javascript)](https://skillicons.dev)
