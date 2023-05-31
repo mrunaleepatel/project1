@@ -1,4 +1,4 @@
-# THE MET MUSEUM 
+# THE CULTURAL ARTWORK HUB 
 
 ## Technologies used
 [![My Skills](https://skillicons.dev/icons?i=js,html,css,javascript)](https://skillicons.dev)
@@ -17,7 +17,7 @@
 
 MET Museum is an app where users can search the artwork by typing the location.
 
-![1378ef7d22b94734a30afcc05f93718a](https://github.com/mrunaleepatel/project1/assets/130593688/84458b24-eeda-45f3-a261-3e286c601690)
+![CulturalArtworkHub](https://github.com/mrunaleepatel/project1/assets/130593688/4720a88a-497b-4f81-b93d-25eb0bc85578)
 
 ## Expected Timeline 
 
