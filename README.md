@@ -7,6 +7,7 @@
 * CSS
 * JavaScript
 * jQuery
+* AJAX
 
 ## API used
 
