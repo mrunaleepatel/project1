@@ -20,6 +20,11 @@ MET Museum is an app where users can search the artwork by typing the location.
 * "https://collectionapi.metmuseum.org/public/collection/v1/objects" 
 * "https://collectionapi.metmuseum.org/public/collection/v1/search?q="
 
+$.ajax("https://collectionapi.metmuseum.org/public/collection/v1/objects")
+.then((data) => {
+    console.log(data)
+})
+
 ## Live site 
 
 [Link to live site](https://project-1-7yoo.onrender.com)
