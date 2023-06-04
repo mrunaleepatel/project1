@@ -37,8 +37,9 @@ $.ajax("https://collectionapi.metmuseum.org/public/collection/v1/objects")
 - Deployed via Render. 
 
 ## Output 
-![Uploading Screenshot 2023-06-04 at 12.09.36 PM.png…]()
-![Uploading Screenshot 2023-06-04 at 12.11.46 PM.png…]()
+![homepage](https://github.com/mrunaleepatel/project1/assets/130593688/aa80d699-fe2d-43fb-a55d-69071ada6f0f)
+![results](https://github.com/mrunaleepatel/project1/assets/130593688/22579b50-6779-480a-a899-d06ee4e163b5)
+
 
 
 ## Contributing to the project
