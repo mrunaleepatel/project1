@@ -36,6 +36,11 @@ $.ajax("https://collectionapi.metmuseum.org/public/collection/v1/objects")
 - Testing: Did thorough testing of all features, resolved bugs. 
 - Deployed via Render. 
 
+## Output 
+![Uploading Screenshot 2023-06-04 at 12.09.36 PM.png…]()
+![Uploading Screenshot 2023-06-04 at 12.11.46 PM.png…]()
+
+
 ## Contributing to the project
 
 If you would like to contribute to Project 1, please follow these steps:
